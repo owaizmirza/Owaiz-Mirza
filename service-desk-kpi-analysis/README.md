@@ -1,26 +1,37 @@
 # Service Desk KPI Analysis — SQL Portfolio Case Study
 
-**Independent educational simulation** | **Data:** 100 synthetic IT requests | **Stack:** Python 3, SQLite, SQL, CSV.
+**Independent educational simulation** · **100 synthetic IT requests** · Python 3 / SQLite / SQL / CSV
 
-## Business questions
-- What is the open backlog?
-- Which team has the largest open queue?
-- What proportion of resolved records met their first-response target?
-- How does response performance vary by priority?
+## The question
 
-## Run
+How big is the unresolved backlog, which teams own it, and how well did **resolved tickets** meet their first-response targets?
+
+## Key sample results
+
+| Measure | Result |
+| --- | ---: |
+| Total tickets | 100 |
+| Open tickets | **26** |
+| Resolved tickets | 74 |
+| Resolved-only first-response target attainment | **82.4%** |
+
+**[Read the detailed tables and interpretation →](docs/sample-results.md)**
+
+## How I approached it
+
+1. Defined the ticket status and SLA denominator.
+2. Grouped open requests by assigned team.
+3. Compared first-response target attainment across priority levels.
+4. Called out missing data before suggesting additional KPIs.
+
+## Reproduce the results
+
+Requires **Python 3**, with no third-party dependencies.
+
 ~~~bash
 python run_analysis.py
 ~~~
-No third-party libraries required.
 
-## Definitions
-- status = Open / Resolved, at a simulated reporting snapshot.
-- priority = Critical / High / Medium / Low.
-- first_response_hours is recorded **for resolved requests only**; blank for Open.
-- response_target_hours: illustrative target in elapsed hours (8 / 24 / 72 / 120).
-- **Resolved-case first-response SLA rate** = resolved records responding within the target / all resolved records.
+Files: [Sample data](data/requests.csv) · [SQL queries](queries.sql) · [Runner](run_analysis.py) · [Results](docs/sample-results.md) · [Analysis notes](docs/findings.md)
 
-This is NOT an all-submissions response SLA or a resolution SLA. Real reporting requires business-hour calendars, pauses, response timestamps for open cases, and changes over time.
-
-Files: [data](data/requests.csv) | [SQL queries](queries.sql) | [Python runner](run_analysis.py) | [Analysis notes](docs/findings.md).
+**Important limitation:** `first_response_hours` is missing for open requests. The metric shown here is **not** an all-ticket SLA, and it cannot measure resolution time or backlog aging. Targets are illustrative and all data is synthetic.

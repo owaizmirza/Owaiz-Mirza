@@ -1,101 +1,101 @@
 request_id,submitted_date,assigned_team,request_category,priority,status,first_response_hours,response_target_hours
-REQ0001,2026-02-10,Network,Network,High,Resolved,14,24
-REQ0002,2026-03-19,Applications,Application,Medium,Resolved,25,72
-REQ0003,2026-04-01,Workplace IT,Hardware,Low,Resolved,36,120
-REQ0004,2026-05-10,Service Desk,Access,Critical,Resolved,47,8
-REQ0005,2026-06-19,Network,Network,High,Open,,24
-REQ0006,2026-01-01,Applications,Application,Medium,Resolved,69,72
-REQ0007,2026-02-10,Workplace IT,Hardware,Low,Resolved,80,120
-REQ0008,2026-03-19,Service Desk,Access,Critical,Resolved,91,8
-REQ0009,2026-04-01,Network,Network,High,Resolved,102,24
-REQ0010,2026-05-10,Applications,Application,Medium,Open,,72
-REQ0011,2026-06-19,Workplace IT,Hardware,Low,Resolved,4,120
-REQ0012,2026-01-01,Service Desk,Access,Critical,Resolved,15,8
-REQ0013,2026-02-10,Network,Network,High,Resolved,26,24
-REQ0014,2026-03-19,Applications,Application,Medium,Resolved,37,72
-REQ0015,2026-04-01,Workplace IT,Hardware,Low,Open,,120
-REQ0016,2026-05-10,Service Desk,Access,Critical,Resolved,59,8
-REQ0017,2026-06-19,Network,Network,High,Resolved,70,24
-REQ0018,2026-01-01,Applications,Application,Medium,Resolved,81,72
-REQ0019,2026-02-10,Workplace IT,Hardware,Low,Resolved,92,120
-REQ0020,2026-03-19,Service Desk,Access,Critical,Open,,8
-REQ0021,2026-04-01,Network,Network,High,Resolved,114,24
-REQ0022,2026-05-10,Applications,Application,Medium,Resolved,5,72
-REQ0023,2026-06-19,Workplace IT,Hardware,Low,Resolved,16,120
-REQ0024,2026-01-01,Service Desk,Access,Critical,Resolved,27,8
-REQ0025,2026-02-10,Network,Network,High,Open,,24
-REQ0026,2026-03-19,Applications,Application,Medium,Resolved,49,72
-REQ0027,2026-04-01,Workplace IT,Hardware,Low,Resolved,60,120
-REQ0028,2026-05-10,Service Desk,Access,Critical,Resolved,71,8
-REQ0029,2026-06-19,Network,Network,High,Resolved,82,24
-REQ0030,2026-01-01,Applications,Application,Medium,Open,,72
-REQ0031,2026-02-10,Workplace IT,Hardware,Low,Resolved,104,120
-REQ0032,2026-03-19,Service Desk,Access,Critical,Resolved,115,8
-REQ0033,2026-04-01,Network,Network,High,Resolved,6,24
-REQ0034,2026-05-10,Applications,Application,Medium,Resolved,17,72
-REQ0035,2026-06-19,Workplace IT,Hardware,Low,Open,,120
-REQ0036,2026-01-01,Service Desk,Access,Critical,Resolved,39,8
-REQ0037,2026-02-10,Network,Network,High,Resolved,50,24
-REQ0038,2026-03-19,Applications,Application,Medium,Resolved,61,72
-REQ0039,2026-04-01,Workplace IT,Hardware,Low,Resolved,72,120
-REQ0040,2026-05-10,Service Desk,Access,Critical,Open,,8
-REQ0041,2026-06-19,Network,Network,High,Resolved,94,24
-REQ0042,2026-01-01,Applications,Application,Medium,Resolved,105,72
-REQ0043,2026-02-10,Workplace IT,Hardware,Low,Resolved,116,120
-REQ0044,2026-03-19,Service Desk,Access,Critical,Resolved,7,8
-REQ0045,2026-04-01,Network,Network,High,Open,,24
-REQ0046,2026-05-10,Applications,Application,Medium,Resolved,29,72
-REQ0047,2026-06-19,Workplace IT,Hardware,Low,Resolved,40,120
-REQ0048,2026-01-01,Service Desk,Access,Critical,Resolved,51,8
-REQ0049,2026-02-10,Network,Network,High,Resolved,62,24
-REQ0050,2026-03-19,Applications,Application,Medium,Open,,72
-REQ0051,2026-04-01,Workplace IT,Hardware,Low,Resolved,84,120
-REQ0052,2026-05-10,Service Desk,Access,Critical,Resolved,95,8
-REQ0053,2026-06-19,Network,Network,High,Resolved,106,24
-REQ0054,2026-01-01,Applications,Application,Medium,Resolved,117,72
-REQ0055,2026-02-10,Workplace IT,Hardware,Low,Open,,120
-REQ0056,2026-03-19,Service Desk,Access,Critical,Resolved,19,8
-REQ0057,2026-04-01,Network,Network,High,Resolved,30,24
-REQ0058,2026-05-10,Applications,Application,Medium,Resolved,41,72
-REQ0059,2026-06-19,Workplace IT,Hardware,Low,Resolved,52,120
-REQ0060,2026-01-01,Service Desk,Access,Critical,Open,,8
-REQ0061,2026-02-10,Network,Network,High,Resolved,74,24
-REQ0062,2026-03-19,Applications,Application,Medium,Resolved,85,72
-REQ0063,2026-04-01,Workplace IT,Hardware,Low,Resolved,96,120
-REQ0064,2026-05-10,Service Desk,Access,Critical,Resolved,107,8
-REQ0065,2026-06-19,Network,Network,High,Open,,24
-REQ0066,2026-01-01,Applications,Application,Medium,Resolved,9,72
-REQ0067,2026-02-10,Workplace IT,Hardware,Low,Resolved,20,120
-REQ0068,2026-03-19,Service Desk,Access,Critical,Resolved,31,8
-REQ0069,2026-04-01,Network,Network,High,Resolved,42,24
-REQ0070,2026-05-10,Applications,Application,Medium,Open,,72
-REQ0071,2026-06-19,Workplace IT,Hardware,Low,Resolved,64,120
-REQ0072,2026-01-01,Service Desk,Access,Critical,Resolved,75,8
-REQ0073,2026-02-10,Network,Network,High,Resolved,86,24
-REQ0074,2026-03-19,Applications,Application,Medium,Resolved,97,72
-REQ0075,2026-04-01,Workplace IT,Hardware,Low,Open,,120
-REQ0076,2026-05-10,Service Desk,Access,Critical,Resolved,119,8
-REQ0077,2026-06-19,Network,Network,High,Resolved,10,24
-REQ0078,2026-01-01,Applications,Application,Medium,Resolved,21,72
-REQ0079,2026-02-10,Workplace IT,Hardware,Low,Resolved,32,120
-REQ0080,2026-03-19,Service Desk,Access,Critical,Open,,8
-REQ0081,2026-04-01,Network,Network,High,Resolved,54,24
-REQ0082,2026-05-10,Applications,Application,Medium,Resolved,65,72
-REQ0083,2026-06-19,Workplace IT,Hardware,Low,Resolved,76,120
-REQ0084,2026-01-01,Service Desk,Access,Critical,Resolved,87,8
-REQ0085,2026-02-10,Network,Network,High,Open,,24
-REQ0086,2026-03-19,Applications,Application,Medium,Resolved,109,72
-REQ0087,2026-04-01,Workplace IT,Hardware,Low,Resolved,120,120
-REQ0088,2026-05-10,Service Desk,Access,Critical,Resolved,11,8
-REQ0089,2026-06-19,Network,Network,High,Resolved,22,24
-REQ0090,2026-01-01,Applications,Application,Medium,Open,,72
-REQ0091,2026-02-10,Workplace IT,Hardware,Low,Resolved,44,120
-REQ0092,2026-03-19,Service Desk,Access,Critical,Resolved,55,8
-REQ0093,2026-04-01,Network,Network,High,Resolved,66,24
-REQ0094,2026-05-10,Applications,Application,Medium,Resolved,77,72
-REQ0095,2026-06-19,Workplace IT,Hardware,Low,Open,,120
-REQ0096,2026-01-01,Service Desk,Access,Critical,Resolved,99,8
-REQ0097,2026-02-10,Network,Network,High,Resolved,110,24
-REQ0098,2026-03-19,Applications,Application,Medium,Resolved,121,72
-REQ0099,2026-04-01,Workplace IT,Hardware,Low,Resolved,12,120
-REQ0100,2026-05-10,Service Desk,Access,Critical,Open,,8
+REQ0001,2026-01-08,Workplace IT,Hardware,High,Open,,24
+REQ0002,2026-02-13,Workplace IT,Hardware,Medium,Resolved,19.2,72
+REQ0003,2026-03-08,Service Desk,Application,Medium,Open,,72
+REQ0004,2026-04-08,Service Desk,Access,Low,Resolved,61.4,120
+REQ0005,2026-05-28,Applications,Application,High,Resolved,22.2,24
+REQ0006,2026-06-22,Applications,Access,High,Resolved,27.8,24
+REQ0007,2026-01-21,Service Desk,Hardware,Medium,Resolved,20.7,72
+REQ0008,2026-02-20,Service Desk,Access,Medium,Resolved,121.6,72
+REQ0009,2026-03-09,Applications,Application,Medium,Resolved,42.3,72
+REQ0010,2026-04-13,Service Desk,Access,High,Open,,24
+REQ0011,2026-05-15,Workplace IT,Hardware,Medium,Open,,72
+REQ0012,2026-06-19,Service Desk,Hardware,High,Resolved,27.7,24
+REQ0013,2026-01-28,Applications,Application,High,Open,,24
+REQ0014,2026-02-26,Workplace IT,Access,Medium,Resolved,54.5,72
+REQ0015,2026-03-01,Service Desk,Access,Low,Resolved,77.8,120
+REQ0016,2026-04-22,Service Desk,Network,Low,Resolved,108.5,120
+REQ0017,2026-05-16,Workplace IT,Hardware,Low,Resolved,95.6,120
+REQ0018,2026-06-21,Network,Network,Low,Resolved,106.9,120
+REQ0019,2026-01-09,Applications,Application,Low,Open,,120
+REQ0020,2026-02-06,Applications,Application,High,Resolved,20.5,24
+REQ0021,2026-03-14,Service Desk,Application,Medium,Resolved,50.3,72
+REQ0022,2026-04-17,Service Desk,Network,Medium,Resolved,41.3,72
+REQ0023,2026-05-11,Service Desk,Access,Critical,Open,,8
+REQ0024,2026-06-25,Workplace IT,Hardware,Low,Open,,120
+REQ0025,2026-01-28,Service Desk,Access,Low,Resolved,134.5,120
+REQ0026,2026-02-11,Workplace IT,Access,Medium,Resolved,44.0,72
+REQ0027,2026-03-22,Applications,Application,High,Open,,24
+REQ0028,2026-04-25,Service Desk,Network,High,Resolved,19.5,24
+REQ0029,2026-05-14,Workplace IT,Hardware,Critical,Resolved,1.8,8
+REQ0030,2026-06-09,Service Desk,Access,Medium,Resolved,12.1,72
+REQ0031,2026-01-03,Service Desk,Access,Medium,Open,,72
+REQ0032,2026-02-21,Workplace IT,Hardware,Medium,Resolved,46.6,72
+REQ0033,2026-03-04,Applications,Application,Medium,Resolved,89.3,72
+REQ0034,2026-04-12,Workplace IT,Hardware,Medium,Resolved,117.6,72
+REQ0035,2026-05-13,Service Desk,Access,Medium,Open,,72
+REQ0036,2026-06-18,Workplace IT,Hardware,High,Resolved,7.0,24
+REQ0037,2026-01-16,Applications,Application,High,Resolved,10.1,24
+REQ0038,2026-02-08,Workplace IT,Access,Medium,Open,,72
+REQ0039,2026-03-27,Network,Network,High,Resolved,13.3,24
+REQ0040,2026-04-02,Applications,Application,Medium,Open,,72
+REQ0041,2026-05-21,Applications,Application,Medium,Resolved,51.2,72
+REQ0042,2026-06-24,Applications,Application,Medium,Resolved,55.0,72
+REQ0043,2026-01-13,Workplace IT,Access,Medium,Open,,72
+REQ0044,2026-02-13,Applications,Application,High,Open,,24
+REQ0045,2026-03-25,Workplace IT,Hardware,Low,Resolved,110.0,120
+REQ0046,2026-04-05,Service Desk,Hardware,Low,Resolved,31.3,120
+REQ0047,2026-05-12,Service Desk,Access,Medium,Open,,72
+REQ0048,2026-06-14,Applications,Application,Medium,Resolved,64.3,72
+REQ0049,2026-01-21,Applications,Application,High,Resolved,22.4,24
+REQ0050,2026-02-08,Workplace IT,Access,High,Resolved,35.9,24
+REQ0051,2026-03-28,Service Desk,Access,Medium,Resolved,110.5,72
+REQ0052,2026-04-16,Service Desk,Access,Medium,Resolved,28.8,72
+REQ0053,2026-05-01,Applications,Application,Medium,Resolved,9.0,72
+REQ0054,2026-06-24,Applications,Application,Low,Resolved,73.1,120
+REQ0055,2026-01-15,Applications,Application,Medium,Resolved,25.3,72
+REQ0056,2026-02-18,Workplace IT,Access,High,Open,,24
+REQ0057,2026-03-18,Applications,Application,Critical,Resolved,12.9,8
+REQ0058,2026-04-24,Network,Network,Low,Open,,120
+REQ0059,2026-05-13,Service Desk,Hardware,Medium,Resolved,61.2,72
+REQ0060,2026-06-01,Service Desk,Access,High,Resolved,9.4,24
+REQ0061,2026-01-20,Workplace IT,Hardware,Medium,Resolved,23.2,72
+REQ0062,2026-02-03,Applications,Application,Critical,Resolved,9.2,8
+REQ0063,2026-03-13,Applications,Application,Critical,Resolved,10.5,8
+REQ0064,2026-04-09,Workplace IT,Access,Low,Resolved,107.9,120
+REQ0065,2026-05-14,Applications,Application,High,Resolved,12.8,24
+REQ0066,2026-06-02,Service Desk,Application,Medium,Resolved,37.9,72
+REQ0067,2026-01-08,Workplace IT,Access,Medium,Resolved,46.1,72
+REQ0068,2026-02-05,Service Desk,Access,High,Open,,24
+REQ0069,2026-03-07,Service Desk,Access,Medium,Resolved,45.9,72
+REQ0070,2026-04-26,Applications,Application,Low,Resolved,96.3,120
+REQ0071,2026-05-10,Service Desk,Access,High,Resolved,17.4,24
+REQ0072,2026-06-20,Workplace IT,Hardware,Medium,Resolved,51.8,72
+REQ0073,2026-01-08,Applications,Application,High,Resolved,40.4,24
+REQ0074,2026-02-11,Service Desk,Network,High,Resolved,4.4,24
+REQ0075,2026-03-10,Service Desk,Access,High,Resolved,19.5,24
+REQ0076,2026-04-19,Service Desk,Hardware,Low,Resolved,83.3,120
+REQ0077,2026-05-02,Workplace IT,Access,Medium,Resolved,54.0,72
+REQ0078,2026-06-25,Applications,Application,Low,Resolved,41.2,120
+REQ0079,2026-01-14,Service Desk,Network,Low,Resolved,53.5,120
+REQ0080,2026-02-09,Applications,Application,Medium,Resolved,20.4,72
+REQ0081,2026-03-19,Service Desk,Access,Medium,Resolved,48.2,72
+REQ0082,2026-04-04,Workplace IT,Hardware,Low,Open,,120
+REQ0083,2026-05-11,Applications,Application,Medium,Open,,72
+REQ0084,2026-06-06,Applications,Application,Low,Resolved,48.0,120
+REQ0085,2026-01-01,Service Desk,Access,Low,Resolved,92.2,120
+REQ0086,2026-02-11,Applications,Application,Medium,Resolved,37.9,72
+REQ0087,2026-03-16,Workplace IT,Access,Medium,Resolved,120.6,72
+REQ0088,2026-04-11,Service Desk,Access,High,Open,,24
+REQ0089,2026-05-08,Network,Network,Medium,Open,,72
+REQ0090,2026-06-14,Network,Network,Medium,Resolved,20.7,72
+REQ0091,2026-01-27,Workplace IT,Hardware,High,Open,,24
+REQ0092,2026-02-10,Applications,Access,Low,Resolved,104.9,120
+REQ0093,2026-03-13,Applications,Application,Low,Resolved,104.5,120
+REQ0094,2026-04-14,Service Desk,Hardware,Medium,Resolved,10.6,72
+REQ0095,2026-05-15,Applications,Application,Low,Resolved,106.9,120
+REQ0096,2026-06-18,Network,Network,High,Open,,24
+REQ0097,2026-01-17,Service Desk,Access,Critical,Open,,8
+REQ0098,2026-02-08,Service Desk,Hardware,Low,Resolved,99.5,120
+REQ0099,2026-03-19,Network,Network,Low,Resolved,29.4,120
+REQ0100,2026-04-27,Applications,Application,High,Resolved,17.5,24

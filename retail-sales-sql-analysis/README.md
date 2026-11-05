@@ -1,27 +1,37 @@
 # Retail Sales Performance — SQL Portfolio Case Study
 
-**Independent educational simulation** | **Data:** 240 synthetic orders, January–June 2026 | **Stack:** Python 3, SQLite, SQL, CSV.
+**Independent educational simulation** · **240 synthetic orders, January–June 2026** · Python 3 / SQLite / SQL / CSV
 
-## Business questions
-How does completed-order revenue vary by month, region, and category? Which sales channel has the highest proportion of returned orders?
+## The question
 
-## Run
+How does completed-order revenue vary by month, category, and region? Which sales channels have more returns in this sample?
+
+## Key sample results
+
+| Measure | Result |
+| --- | ---: |
+| Completed-order revenue | **$52,205.45** |
+| Orders (completed + returned) | 240 |
+| Return rate (by order count) | 10.8% |
+| Highest-revenue category | Equipment |
+
+**[Read the detailed tables and interpretation →](docs/sample-results.md)**
+
+## How I approached it
+
+1. Defined what counts as revenue and which orders should be included.
+2. Used SQL groupings for monthly, regional, category, and channel-level reporting.
+3. Checked how the metrics change depending on the numerator and denominator.
+4. Documented the limitations before drawing a business conclusion.
+
+## Reproduce the results
+
+Requires **Python 3**, with no third-party dependencies.
+
 ~~~bash
 python run_analysis.py
 ~~~
 
-No third-party Python packages are required.
+Files: [Sample data](data/sales.csv) · [SQL queries](queries.sql) · [Runner](run_analysis.py) · [Results](docs/sample-results.md) · [Analysis notes](docs/findings.md)
 
-## Dataset
-- order_id, order_date: unique synthetic order identifier and order date.
-- region: North, South, East, West.
-- channel: Online, Retail, Partner.
-- product_category: Software, Equipment, Accessories, Services.
-- quantity, unit_price_usd, discount_pct: pricing inputs.
-- order_status: Completed or Returned.
-
-**Recognized revenue in this simplified scenario:** sum of quantity × unit price × (1 − discount% / 100) for Completed orders only. Returned orders contribute zero; tax, shipping, refunds, and accounting policy are deliberately excluded. **Return rate:** Returned orders / all orders.
-
-Files: [data](data/sales.csv) | [SQL queries](queries.sql) | [Python runner](run_analysis.py) | [Discussion](docs/findings.md).
-
-This is a learning demonstration, not actual business transactions or GAAP revenue reporting.
+**Metric scope:** Completed-order revenue = `SUM(quantity * unit_price_usd * (1 - discount_pct/100))` over Completed orders. Returned orders contribute zero. This is a simplified portfolio metric, not formal accounting revenue. The entire dataset is fictional; conclusions do not describe an actual retailer.

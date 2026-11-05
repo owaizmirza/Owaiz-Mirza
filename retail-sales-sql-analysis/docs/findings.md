@@ -1,15 +1,22 @@
-# Retail Sales — Analysis Notes
+# Retail Sales — Interpretation and Follow-Up
 
-## Interpretation checklist
-1. Review overall order counts, completed-order revenue, and returned-order rate.
-2. Compare monthly completed-order revenue, checking whether results reflect order volume, category mix, or discounts.
-3. Check regional and product-category concentration.
-4. Compare channel return rates using the **number of orders** as denominator. Avoid interpreting a rate without its sample size.
+This is a **synthetic SQL case study**, not a report about a real retailer.
 
-## Recommendations for a real business assessment
-- Break down return rates by channel **and** category to control for product mix.
-- Compare margin, not only revenue, once cost data is available.
-- Create time-series visuals and investigate seasonal or promotional drivers.
-- Reconcile sales records to the organization's accounting and refund policies.
+## Results and evidence
 
-These observations describe the **analysis approach**, not actual-world findings. All records are synthetic.
+Read the [results tables](sample-results.md) first. The dataset has 240 orders; 214 completed orders account for $52,205.45 in simplified revenue. 26 returned orders produce a 10.8% return rate.
+
+The **Equipment** category is the leading revenue contributor in this sample. I would not treat that as a recommendation to invest more in the category until I had costs, profitability, customer mix, and returns by category.
+
+The **Online** channel has the highest observed return rate (14.7%), but that figure covers only 116 orders. Before proposing changes, I would compare products sold in each channel and check whether the difference persists over time.
+
+## Business questions to ask next
+
+- Are returns measured against orders, individual units, or shipped items?
+- Are we reporting net or gross revenue, and when do refunds post?
+- Is our objective revenue growth, margin, conversion, or customer retention?
+- How do category and discount mix differ across channels and regions?
+
+## What I learned designing this analysis
+
+Defining metrics carefully is as important as writing the SQL. A good result should be reproducible, have a clear denominator, and state what the dataset **cannot** tell us. Synthetic records can demonstrate the process but not establish real-world trends.

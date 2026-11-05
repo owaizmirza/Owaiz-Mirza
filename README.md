@@ -1,38 +1,36 @@
 # Owaiz Mirza | Business Analyst Portfolio
 
-Welcome! I am a Business Analytics graduate interested in **Business Analysis, Business Systems Analysis, process improvement, and data-driven decision-making**.
+Welcome! I'm a Business Analytics graduate interested in **business analysis, IT systems, process improvement, and practical data reporting**.
 
-This repository contains **independent educational case studies** designed to demonstrate requirements analysis, documentation, Agile user stories, UAT planning, SQL reporting, and KPI definition. **All scenarios and datasets are fictional/synthetic.** They are not presented as client work or professional employment projects.
+I use this repository to work through realistic business problems: clarifying a request, documenting a process, defining useful metrics, and presenting what the data can and cannot show.
 
-## Featured portfolio projects
+**All case studies are independent educational exercises using fictional scenarios and synthetic data.** They are not client work or employment accomplishments.
 
-| Project | What it demonstrates | Start here |
+## Featured projects
+
+| Project | What I worked on | Open |
 | --- | --- | --- |
-| IT Demand Intake | Business requirements, process mapping, user stories, traceability, and UAT | [View case study](it-demand-intake-business-analysis/README.md) |
-| Retail Sales SQL Analysis | SQL reporting, monthly revenue, product mix, channel return rates | [View SQL project](retail-sales-sql-analysis/README.md) |
-| Service Desk KPI Analysis | IT operations, backlog, priority-based response SLA metrics | [View KPI project](service-desk-kpi-analysis/README.md) |
+| **IT Demand Intake** | Business requirements, user stories, process mapping, UAT test cases | [Case study](it-demand-intake-business-analysis/README.md) |
+| **Retail Sales — SQL** | Revenue definition, SQL reporting, returns analysis | [Project + sample results](retail-sales-sql-analysis/README.md) |
+| **Service Desk — KPIs** | Ticket backlog, first-response target attainment, metric caveats | [Project + sample results](service-desk-kpi-analysis/README.md) |
 
-## Skills covered
+## What's in the projects?
 
-**Business analysis:** requirements elicitation, functional/nonfunctional requirements, user stories, acceptance criteria, process flows, UAT, traceability.
+The business analysis case study includes a problem statement, requirements, a proposed process diagram, user stories, and UAT artifacts. The two SQL cases contain sample CSV files, queries, Python runners, and **results tables based on those sample files**.
 
-**Analytics:** SQL, Excel-style KPI definitions, performance measurement, quality checks, interpretation of synthetic datasets.
+### Quick links to analysis results
+- [Retail sales — results and interpretation](retail-sales-sql-analysis/docs/sample-results.md)
+- [Service desk — results and interpretation](service-desk-kpi-analysis/docs/sample-results.md)
+- [How I'd discuss these projects in an interview](docs/interview-project-walkthrough.md)
 
-**Technology:** SQLite, Python 3, GitHub, Agile terminology, IT request intake concepts.
+## Tools and areas
 
-## Running the analytics projects
+Requirements gathering · process mapping · acceptance criteria · UAT · SQL · Python 3 · SQLite · Excel / reporting concepts · service-management metrics
 
-Both SQL projects use Python 3's standard library and work without additional packages.
+## Run the SQL analyses
 
-~~~bash
-cd retail-sales-sql-analysis
-python run_analysis.py
-cd ../service-desk-kpi-analysis
-python run_analysis.py
-~~~
+From the relevant project directory, run `python run_analysis.py`. The scripts require Python 3 only and work on the included CSV files.
 
-Each project includes synthetic data, SQL queries, and documentation of metric definitions.
+## A note on accuracy
 
-## Profile introduction
-
-A separate [profile README draft](profile-README/README.md) is provided. To display it automatically on GitHub's profile page, the repository must be named **owaizmirza**, exactly matching the GitHub username. The current repository name, Owaiz-Mirza, works as an ordinary portfolio repository.
+Every metric includes a definition and a denominator. Synthetic data supports a demonstration of the analysis process, not a claim about real-world business performance.
