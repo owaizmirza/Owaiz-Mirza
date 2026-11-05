@@ -1,0 +1,8 @@
+requirement_id,description,user_story_id,uat_test_id,priority
+FR-01,Required intake fields,US-01,UAT-01,Must
+FR-02,Unique request ID,US-01,UAT-02,Must
+FR-03,Assign owner and priority,US-02,UAT-03,Must
+FR-04,Requester status visibility,US-03,UAT-04,Must
+FR-05,Status audit history,US-03,UAT-05,Must
+FR-06,Duplicate warning,US-04,UAT-06,Should
+NFR-02,Access control,US-03,UAT-07,Must

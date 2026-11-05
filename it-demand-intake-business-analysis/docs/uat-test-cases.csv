@@ -1,0 +1,8 @@
+test_id,requirement_id,scenario,expected_result,test_status
+UAT-01,FR-01,Submit without business outcome,Validation error and no ID created,Not executed
+UAT-02,FR-02,Submit complete demand,Unique ID and Submitted status shown,Not executed
+UAT-03,FR-03,Accept a demand without an owner,Transition blocked until owner selected,Not executed
+UAT-04,FR-04,Requester opens own demand,Current status and update date visible,Not executed
+UAT-05,FR-05,Analyst changes demand status,Audit records old and new values with actor and timestamp,Not executed
+UAT-06,FR-06,Submit similar request,Potential duplicate warning displayed without auto merge,Not executed
+UAT-07,NFR-02,Requester opens restricted demand,Access denied,Not executed
