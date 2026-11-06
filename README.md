@@ -1,36 +1,33 @@
-# Owaiz Mirza | Business Analyst Portfolio
+# Owaiz Mirza | Learning Portfolio
 
-Welcome! I'm a Business Analytics graduate interested in **business analysis, IT systems, process improvement, and practical data reporting**.
+Hi! I'm a Business Analytics graduate starting my journey into **Business Analysis and Data Analysis**.
 
-I use this repository to work through realistic business problems: clarifying a request, documenting a process, defining useful metrics, and presenting what the data can and cannot show.
+I made this portfolio to practice the basics, get more comfortable with useful tools, and show how I'm learning to approach simple business and IT problems.
 
-**All case studies are independent educational exercises using fictional scenarios and synthetic data.** They are not client work or employment accomplishments.
+**A quick note:** Every project here is a learning exercise using fictional situations and sample data. These are not projects I worked on for a company.
 
-## Featured projects
+## My practice projects
 
-| Project | What I worked on | Open |
+| Project | What I practiced | View |
 | --- | --- | --- |
-| **IT Demand Intake** | Business requirements, user stories, process mapping, UAT test cases | [Case study](it-demand-intake-business-analysis/README.md) |
-| **Retail Sales — SQL** | Revenue definition, SQL reporting, returns analysis | [Project + sample results](retail-sales-sql-analysis/README.md) |
-| **Service Desk — KPIs** | Ticket backlog, first-response target attainment, metric caveats | [Project + sample results](service-desk-kpi-analysis/README.md) |
+| **IT Request Tracking** | Writing basic requirements, organizing requests, and planning simple tests | [Open project](it-demand-intake-business-analysis/README.md) |
+| **Sales Data Practice** | Writing SQL queries to explore sales, returns, and trends | [Open project](retail-sales-sql-analysis/README.md) |
+| **IT Support Reporting** | Looking at support tickets, open requests, and response times | [Open project](service-desk-kpi-analysis/README.md) |
 
-## What's in the projects?
+## What you'll find here
 
-The business analysis case study includes a problem statement, requirements, a proposed process diagram, user stories, and UAT artifacts. The two SQL cases contain sample CSV files, queries, Python runners, and **results tables based on those sample files**.
+Each project includes the sample information I used, notes on what I tried, and what I learned. The SQL projects also include queries and results that you can review.
 
-### Quick links to analysis results
-- [Retail sales — results and interpretation](retail-sales-sql-analysis/docs/sample-results.md)
-- [Service desk — results and interpretation](service-desk-kpi-analysis/docs/sample-results.md)
-- [How I'd discuss these projects in an interview](docs/interview-project-walkthrough.md)
+- [Sales practice results](retail-sales-sql-analysis/docs/sample-results.md)
+- [IT support reporting results](service-desk-kpi-analysis/docs/sample-results.md)
+- [How I'd talk about these projects in an interview](docs/interview-project-walkthrough.md)
 
-## Tools and areas
+## Tools I'm learning
 
-Requirements gathering · process mapping · acceptance criteria · UAT · SQL · Python 3 · SQLite · Excel / reporting concepts · service-management metrics
+SQL · Excel · Python basics · Power BI · Tableau · Business requirements · IT processes
 
-## Run the SQL analyses
+## Try the SQL examples
 
-From the relevant project directory, run `python run_analysis.py`. The scripts require Python 3 only and work on the included CSV files.
+If you have Python 3 installed, open either SQL project folder and run `python run_analysis.py`. The scripts use only Python's built-in tools.
 
-## A note on accuracy
-
-Every metric includes a definition and a denominator. Synthetic data supports a demonstration of the analysis process, not a claim about real-world business performance.
+I'm still learning, so my goal here is to show my progress and be clear about what I understand—not to present myself as an experienced analyst.
